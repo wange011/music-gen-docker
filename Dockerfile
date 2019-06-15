@@ -12,7 +12,4 @@ RUN git clone https://github.com/louisabraham/python3-midi && \
     cd python3-midi && \
     python setup.py install
 
-COPY home/ethan /host
-WORKDIR /home/ethan
-
 RUN apt-get install spyder3    
